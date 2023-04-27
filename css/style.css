@@ -140,4 +140,12 @@ header nav ul li:last-of-type a{
     margin-left: 16px;
 }
 
+.icon-bar li:before{
+    content: "";
+    display: inline-block;
+    background-image: url('../images/IMAGE.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
 
