@@ -19,7 +19,7 @@
 
 header{
     background-color: #181818;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .container{
@@ -76,10 +76,11 @@ header nav ul li:last-of-type a{
     background-image: url('../images/main--back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
-    height: 90vh;
+    max-width: 100vw;
+    height: 95vh;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    position: relative;
 }
 
 .main_container article{
@@ -116,4 +117,27 @@ header nav ul li:last-of-type a{
     line-height: 59px;
     text-align: center;
     color: #FFFFFF;
+    padding-bottom: 18px;
 }
+
+.icon-bar{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    align-content: center;
+    z-index: 1;
+    list-style: none;
+
+}
+
+.icon-bar li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+
