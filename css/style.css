@@ -212,3 +212,145 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
 }
 
+.second_container{
+    background-color: black;
+}
+
+.second_container h1{
+    padding-top: 120px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.second_container h2{
+    margin-bottom: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.second_block_for_center{
+    display: flex;
+    justify-content: center;
+}
+
+.second_main_block{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1168px;
+    margin-bottom: 100px;
+}
+
+.second_block_button{
+    max-width: 143px;
+    height: 42px;
+    border-radius: 14px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.second_block_button a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding-right: 10px;
+
+}
+.second_block_button a:before{
+    content: ".";
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    border-radius: 14px;
+}
+
+.second_cont_bloc1{
+    background-image: url('../images/back-third-1.jpg');
+    background-repeat: no-repeat;
+    max-width: 576px;
+    height: 600px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.second_cont_bloc2{
+    background-image: url('../images/back-third-2.jpg');
+    background-repeat: no-repeat;
+    max-width: 576px;
+    height: 600px;
+    margin-left: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.second_cont_bloc3{
+    background-image: url('../images/back-third-3.jpg');
+    background-repeat: no-repeat;
+    max-width: 576px;
+    height: 600px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+.second_cont_bloc4{
+    background-image: url('../images/back-third-4.jpg');
+    background-repeat: no-repeat;
+    max-width: 576px;
+    height: 600px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+ }
+
+.second_main_block div p:nth-child(1){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.second_main_block div p:nth-child(2){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
